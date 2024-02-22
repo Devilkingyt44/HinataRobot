@@ -64,7 +64,7 @@ RUN apt update && apt upgrade -y && \
 # Pypi package Repo upgrade
 RUN pip3 install --upgrade pip setuptools
 
-# Copy Python Requirements to /root/FallenRobot
+# Copy Python Requirements to /root/HinataRobot
 RUN git clone https://github.com/Devilkingyt44/HinataRobot /root/HinataRobot
 WORKDIR /root/HinataRobot
 
