@@ -1,1 +1,1 @@
-worker: python3 HinataRobot/main.py
+worker: python3 HinataRobot/HinataRobot/main.py
